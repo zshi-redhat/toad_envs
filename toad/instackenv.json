@@ -1,17 +1,33 @@
 {
+  "host-ip": "190.9.4.61/16"
   "nodes": [
     {
       "mac": [
-        "<<provisioning_mac_address_here>>"
+        "24:44:27:b1:7d:ca"
       ],
-      "cpu": "<<number_of_cores>>",
-      "memory": "<<memory_in_mb>>",
-      "disk": "<<disk_in_gb>>",
+      "cpu": "48",
+      "memory": "192879",
+      "disk": "200",
       "arch": "x86_64",
       "pm_type": "pxe_ipmitool",
-      "pm_user": "<<ipmi_user>>",
-      "pm_password": "<<ipmi_password>>",
-      "pm_addr": "<<ipmi_address>>"
+      "pm_user": "root",
+      "pm_password": "Huawei12#$",
+      "pm_addr": "190.9.4.153"
+    }
+ ]
+  "nodes": [
+    {
+      "mac": [
+        "14:44:27:b1:7d:a8"
+      ],
+      "cpu": "48",
+      "memory": "192879",
+      "disk": "200",
+      "arch": "x86_64",
+      "pm_type": "pxe_ipmitool",
+      "pm_user": "root",
+      "pm_password": "Huawei12#$",
+      "pm_addr": "190.9.4.154"
     }
  ]
 }
